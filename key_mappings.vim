@@ -16,8 +16,8 @@ vnoremap # :<C-u>call <SID>VSetSearch()<CR>??<CR>
 
 "map <leader>ff :FuzzyFinderTextMate<CR>
 map <leader>ff :<C-u>FufFile **/<CR>
-map <leader>fb :FuzzyFinderBuffer<CR>
-map <leader>ft :FuzzyFinderTag<CR>
+map <leader>fb :FufBuffer<CR>
+"map <leader>ft :FuzzyFinderTag<CR>
 
 map <leader>d :NERDTreeToggle<CR>
 
