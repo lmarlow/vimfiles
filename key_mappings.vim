@@ -28,3 +28,6 @@ nmap <silent> <leader>n :silent :nohlsearch<CR>
 " set listchars=tab:>-,trail:·,eol:$,nbsp:·
 " set listchars=tab:>-,trail:·,nbsp:·
 nmap <silent> <leader>s :set nolist!<CR>
+
+" Toggle line wrapping
+nmap <silent> <leader>w :set wrap!<CR>
