@@ -262,6 +262,8 @@ endfunction
 " change font for GUI
 if has("gui_running")
     set guifont=Monaco:h14.00
+    " remove toolbar and buttons
+    set guioptions-=T
 endif
 
 " Only do this part when compiled with support for autocommands.
