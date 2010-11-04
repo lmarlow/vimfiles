@@ -14,11 +14,12 @@ endfunction
 vnoremap * :<C-u>call <SID>VSetSearch()<CR>//<CR>
 vnoremap # :<C-u>call <SID>VSetSearch()<CR>??<CR>
 
-"map <leader>ff :FuzzyFinderTextMate<CR>
-map <leader>ff :<C-u>FufFile **/<CR>
+" fuzzy finder
+map <leader>ff :FufCoverageFile<CR>
 map <leader>fb :FufBuffer<CR>
-"map <leader>ft :FuzzyFinderTag<CR>
+map <leader>fl :FufLine<CR>
 
+" NERDTree
 map <leader>d :NERDTreeToggle<CR>
 
 " If the search term highlighting gets annoying, set a key to switch it off temporarily

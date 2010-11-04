@@ -1,6 +1,5 @@
 " fuzzy finder
-let g:fuzzy_ignore = "*.log"
-let g:fuzzy_matching_limit = 70
+let g:fuf_enumeratinglimit = 70
 
 " bufexplorer
 let g:bufExplorerShowRelativePath=1  " Show relative paths.

@@ -287,13 +287,6 @@ set smartcase
 let g:fuzzy_ignore = "*.log"
 let g:fuzzy_matching_limit = 70
 
-"map <leader>ff :FuzzyFinderTextMate<CR>
-map <leader>ff :<C-u>FufFile **/<CR>
-map <leader>fb :FuzzyFinderBuffer<CR>
-map <leader>ft :FuzzyFinderTag<CR>
-
-map <leader>d :NERDTreeToggle<CR>
-
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
