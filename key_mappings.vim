@@ -31,3 +31,6 @@ nmap <silent> <leader>s :set nolist!<CR>
 
 " Toggle line wrapping
 nmap <silent> <leader>w :set wrap!<CR>
+
+" Run selected text through ruby and replace with output
+vmap <Leader>rb :!ruby -e 'eval(STDIN.read)'<CR>
