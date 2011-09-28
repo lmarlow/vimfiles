@@ -2,7 +2,7 @@
 "This must be first, because it changes other options as a side effect.
 set nocompatible
 
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 "call pathogen#helptags()
 
 "allow backspacing over everything in insert mode
@@ -284,21 +284,8 @@ set cursorline
 set ignorecase
 set smartcase
 
-let g:fuzzy_ignore = "*.log"
-let g:fuzzy_matching_limit = 70
-
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-
-" If the search term highlighting gets annoying, set a key to switch it off temporarily
-nmap <silent> <leader>n :silent :nohlsearch<CR>
-
-" Catch trailing whitespace
-" set listchars=tab:>-,trail:·,eol:$,nbsp:·
-" set listchars=tab:>-,trail:·,nbsp:·
-nmap <silent> <leader>s :set nolist!<CR>
-
-let g:bufExplorerShowRelativePath=1  " Show relative paths.
 
 "if &t_Co > 16
 "    colorscheme vibrantink
