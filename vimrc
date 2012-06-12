@@ -20,6 +20,8 @@ set hlsearch    "hilight searches by default
 set nowrap      "dont wrap lines
 set linebreak   "wrap lines at convenient points
 
+set title       "set the title of the terminal window
+
 "statusline setup
 set statusline=%f       "tail of the filename
 
