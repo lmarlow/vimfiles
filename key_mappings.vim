@@ -14,10 +14,9 @@ endfunction
 vnoremap * :<C-u>call <SID>VSetSearch()<CR>//<CR>
 vnoremap # :<C-u>call <SID>VSetSearch()<CR>??<CR>
 
-" fuzzy finder
-map <leader>ff :FufCoverageFile<CR>
-map <leader>fb :FufBuffer<CR>
-map <leader>fl :FufLine<CR>
+" CtrlP
+map <leader>ff :CtrlP<CR>
+map <leader>fb :CtrlPBuffer<CR>
 
 " NERDTree
 map <leader>d :NERDTreeToggle<CR>
