@@ -10,3 +10,7 @@ let g:clj_paren_rainbow=1           " Rainbow parentheses'!
 
 " rails.vim
 autocmd User Rails silent! Rnavcommand worker app/workers -glob=**/*
+
+" additional ruby files
+autocmd BufNewFile,BufRead [cC]apfile setfiletype ruby
+autocmd BufNewFile,BufRead Gemfile setfiletype ruby
