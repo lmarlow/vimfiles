@@ -34,3 +34,6 @@ nmap <silent> <leader>w :set wrap!<CR>
 
 " Run selected text through ruby and replace with output
 vmap <Leader>rb :!ruby -e 'eval(STDIN.read)'<CR>
+
+" Extract RSpec let from before @variable
+vmap <leader>rrl d?\v^\s*<(describe\|context)><CR>$p==0:s/\v\@?<(\w+)>\s*\=\s*(.+)/let(:\1) { \2 }<CR>mrf:wve"vy?\v^\s*<(describe\|context)><CR>$V%:s/@\<\(<C-R>v\)\>/\1/g<CR>'r
