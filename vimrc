@@ -5,6 +5,9 @@ set nocompatible
 call pathogen#infect()
 "call pathogen#helptags()
 
+" golang.org
+set rtp+=$GOROOT/misc/vim
+
 "allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
