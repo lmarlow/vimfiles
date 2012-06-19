@@ -1,5 +1,6 @@
-" fuzzy finder
-let g:fuf_enumeratinglimit = 70
+" ctrlp
+let g:ctrlp_follow_symlinks = 1
+let g:ctrlp_by_filename = 1
 
 " bufexplorer
 let g:bufExplorerShowRelativePath=1  " Show relative paths.
