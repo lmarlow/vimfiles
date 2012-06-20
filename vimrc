@@ -301,3 +301,5 @@ colorscheme vividchalk
 
 runtime plugin_config.vim
 runtime key_mappings.vim
+
+au BufReadPre,BufNewFile *.go set nosmarttab tabstop=2 noexpandtab
