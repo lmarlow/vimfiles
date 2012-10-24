@@ -18,8 +18,8 @@ vnoremap # :<C-u>call <SID>VSetSearch()<CR>??<CR>
 map <leader>ff :CtrlP<CR>
 map <leader>fb :CtrlPBuffer<CR>
 
-" NERDTree
-map <leader>d :NERDTreeToggle<CR>
+" Directory browsing
+map <leader>d :Explore!<CR>
 
 " If the search term highlighting gets annoying, set a key to switch it off temporarily
 nmap <silent> <leader>n :silent :nohlsearch<CR>
